@@ -11,7 +11,8 @@ rm(list=ls())
 library(foreign)#to read .dta files
 library(reshape)#to renaming columns in dataframes
 
-setwd('~/CoA Data Write-Up')
+#opton to set your working directory
+#setwd('~/CoA Data Write-Up')
 
 #cta96_stata.dta is available from the Judicial Research Initiative website, at www.astsandsciences.sc.ede/poli/juri/appct.htm
 frame1=read.dta('cta96_stata.dta')
